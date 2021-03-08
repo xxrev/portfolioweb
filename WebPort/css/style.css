@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #222;
+    position: relative;
+    background: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, a:hover{
+    color: black;
+    outline: 0;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+#header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    text-align: center;
+}
+.header{
+    border-bottom: 1px solid #F1F1F1;
+}
+
+#header .logo h2{
+    font-family: 'Oswald', serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-top: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#header .logo .black{
+    color: #222;
+}
+
+#header nav{
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.main-menu{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.main-menu li{
+    display: block;
+    float: left;
+    position: relative;
+    margin: 20px 13px 0px;
+}
+
+.main-menu li a{
+    color: rgba(0, 0, 0, 0.705);
+    display: block;
+    text-decoration: none;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.main-menu  li  a:hover{ 
+	color: rgb(0, 0, 0);
+    transition: 0.7s ease;    
+}
